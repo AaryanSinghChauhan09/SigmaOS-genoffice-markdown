@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-genoffice-markdown"
+tier = 3
+stability = "scaffold"
+language = "rust"
+description = "GenOffice Markdown editor — CommonMark rendering, live preview, sanitization, and HTML/PDF export"
+upstream = []
+
+[contract]
+provides = ["markdown-rendering", "commonmark-preview"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles"
+next_milestone = "Verification test suite"

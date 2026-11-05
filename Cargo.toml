@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_genoffice_markdown"
+version = "0.1.0"
+edition = "2021"
+description = "GenOffice Markdown editor — CommonMark rendering, live preview, sanitization, and HTML/PDF export"
+
+[lib]
+name = "sigmaos_genoffice_markdown"
+path = "src/lib.rs"
