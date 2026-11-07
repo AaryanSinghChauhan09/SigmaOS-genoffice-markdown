@@ -23,7 +23,7 @@ impl MarkdownDoc {
                 Block::Heading { level, text } => out.push_str(&format!("<h{l}>{t}</h{l}>\n", l = level, t = text)),
                 Block::Paragraph(text) => out.push_str(&format!("<p>{}</p>\n", text)),
                 Block::CodeBlock { lang, code } => {
-                    let cls = lang.as_deref().map(|l| format!(" class="language-{}"", l)).unwrap_or_default();
+                    let cls = lang.as_deref().map(|l| format!(" class=\"language-{}\"", l)).unwrap_or_default();
                     out.push_str(&format!("<pre><code{}>{}</code></pre>\n", cls, code));
                 }
                 Block::BulletList(items) => {
