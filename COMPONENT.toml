@@ -1,9 +1,9 @@
 [component]
 name = "SigmaOS-genoffice-markdown"
 tier = 3
-stability = "scaffold"
+stability = "beta"
 language = "rust"
-description = "No GitHub description is set; component scope remains unclassified."
+description = "Markdown to HTML converter with block parsing, inline formatting, and CLI"
 upstream = []
 
 [contract]
@@ -11,6 +11,6 @@ provides = ["markdown-rendering", "commonmark-preview"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
-test_evidence = "Compiles"
-next_milestone = "Verification test suite"
+status = "Implemented"
+test_evidence = "cargo test --offline unit tests pass"
+next_milestone = "Full CommonMark edge-case coverage and PDF export"
