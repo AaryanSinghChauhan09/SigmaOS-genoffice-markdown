@@ -3,7 +3,7 @@ name = "SigmaOS-genoffice-markdown"
 tier = 3
 stability = "scaffold"
 language = "rust"
-description = "GenOffice Markdown editor — CommonMark rendering, live preview, sanitization, and HTML/PDF export"
+description = "No GitHub description is set; component scope remains unclassified."
 upstream = []
 
 [contract]
